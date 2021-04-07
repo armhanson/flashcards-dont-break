@@ -1,0 +1,87 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
+    },
+    {
+      "name": "This is a deck",
+      "description": "Yes. Yes, it is.",
+      "id": 2
+    },
+    {
+      "name": "New Deck Yo",
+      "description": "It's a deck. What.",
+      "id": 3
+    },
+    {
+      "name": "I can make a deck, but Qualified says I'm returning an empty array.",
+      "description": "Let's see if this claim is true...",
+      "id": 4
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "front": "Differentiate between Real DOM and Virtual DOM.",
+      "back": "Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 1
+    },
+    {
+      "id": 2,
+      "front": "How do you modify the state of a different React component?",
+      "back": "Not at all! State is visible to the component only.",
+      "deckId": 1
+    },
+    {
+      "id": 3,
+      "front": "How do you pass data 'down' to a React child component?",
+      "back": "As properties or props",
+      "deckId": 1
+    },
+    {
+      "cards": [],
+      "front": "b",
+      "back": "b",
+      "deckId": 1,
+      "id": 7
+    },
+    {
+      "front": "Front o card.",
+      "back": "Back o card.",
+      "deckId": 2,
+      "id": 8
+    },
+    {
+      "front": "Wowwww.",
+      "back": "Weeooowwwww.",
+      "deckId": 2,
+      "id": 9
+    },
+    {
+      "front": "another card here.",
+      "back": "and another second side of a card.",
+      "deckId": 2,
+      "id": 10
+    },
+    {
+      "front": "i have a card here for ya.",
+      "back": "ok, thanks.",
+      "deckId": 4,
+      "id": 11
+    },
+    {
+      "front": "dfkjs;l",
+      "back": "dlkfjdsalj",
+      "deckId": 4,
+      "id": 12
+    },
+    {
+      "front": "iefie",
+      "back": "cknl",
+      "deckId": 4,
+      "id": 13
+    }
+  ]
+}
